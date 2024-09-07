@@ -1,0 +1,37 @@
+.cityInfo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.cityInfo h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.cityInfo p {
+  margin: 15px 0 0;
+  color: #7f8c8d;
+}
+
+.cityInfo .removeCity {
+  display: flex;
+  align-items: center;
+}
+
+.cityInfo button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 55px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 15px;
+}
+
+.cityInfo button:hover {
+  background-color: #c0392b;
+}
